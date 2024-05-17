@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 @layer base {
   @font-face {
     font-family: "Pretendard";
@@ -77,5 +73,15 @@
     font-display: swap;
     src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Thin.woff")
       format("woff");
+  }
+}
+
+@layer components {
+  .container-style {
+    @apply max-w-screen-xl mx-auto;
+  }
+
+  .nav-button-style {
+    @apply px-4 py-5 font-semibold text-techit-gray-300;
   }
 }
