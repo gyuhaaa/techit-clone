@@ -4,7 +4,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        "techit-gray": { 100: "#e5e5e5", 200: "#737373", 300: "#222222" },
+        "techit-gray": {
+          100: "#e5e5e5",
+          150: "#A3A3A3",
+          200: "#737373",
+          300: "#222222",
+        },
       },
     },
     fontFamily: {
