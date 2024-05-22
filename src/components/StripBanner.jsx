@@ -26,7 +26,7 @@ const StripBanner = () => {
         </button>
       </div>
       <img
-        className=" h-[200px] w-full object-cover"
+        className="h-[200px] w-full object-cover"
         src="/images/strip_banner_768_prenotice.webp"
         alt="strip_banner"
       />
